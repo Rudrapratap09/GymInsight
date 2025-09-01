@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GymInsights - Responsive fitness management website built with HTML5, CSS3 and JavaScript."
+    />
+    <title>GymInsights - Power Your Fitness Goals</title>
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="home">
+      <div class="container">
+        <nav class="header-navigation" aria-label="navigation">
+          <div class="logo"><span class="yellow">Gym</span>Insights</div>
+
+          <img src="img/nav-icon.svg" alt="navigation icon" class="nav-icon" width="30" height="30" />
+
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="container hero-box">
+          <div class="hero-content margin-bottom">
+            <h1 class="heading heading--1 margin-bottom">
+              Smarter Gym Management with GymInsights
+            </h1>
+            <p class="description">
+              Empowering gyms to deliver exceptional member experiences and grow with ease.
+            </p>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn__primary margin-right margin-bottom">Join Now</button>
+            <button class="btn btn__secondary">Our Services</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="section-about" id="about">
+        <div class="about-box container">
+          <div class="about-box__content" data-aos="fade-up">
+            <h2 class="heading heading--2">About <span class="yellow">GymInsights</span></h2>
+            <p>
+              GymInsights makes it simple to manage members, classes, trainers, sales, and communication—all from one platform.
+            </p>
+            <a href="#" class="link-button">Read More &rarr;</a>
+          </div>
+          <figure class="about-box__image" data-aos="fade-up">
+            <img src="img/about-img-1.jpg" alt="about gym" width="350" height="233" />
+            <img src="img/about-img-2.jpg" alt="about gym" width="350" height="233" />
+            <img src="img/about-img-3.jpg" alt="about gym" width="420" height="280" />
+          </figure>
+        </div>
+      </section>
+
+      <!-- SERVICES -->
+      <section class="section-courses" id="services">
+        <div class="container courses-box" data-aos="fade-up">
+          <header class="courses-heading">
+            <h2 class="heading heading--2 underline">Our Services</h2>
+            <p>
+              Tools and solutions designed to streamline gym operations, improve efficiency, and engage members.
+            </p>
+          </header>
+
+          <article class="courses-content">
+            <div class="class-card">
+              <img class="class-card__img" src="./img/courses-bodybuilding.jpg" alt="24/7 Access" />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>Save time and money with secure 24/7 gym access systems.</p>
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">24/7 Access</div>
+            </div>
+
+            <div class="class-card">
+              <img class="class-card__img" src="./img/courses-crossfit.jpg" alt="Member Management" />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>Go paperless with seamless online signups, integration, and dashboards.</p>
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Member Management</div>
+            </div>
+
+            <div class="class-card">
+              <img class="class-card__img" src="./img/courses-fitness.jpg" alt="Automation" />
+              <div class="class-card__overlay">
+                <div class="text">
+                  <p>Automate marketing and retention tools to save time.</p>
+                  <a href="#" class="link-button">Read More &rarr;</a>
+                </div>
+              </div>
+              <div class="class-card__title">Automation</div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- TEAM -->
+      <section class="section-coaches" id="team">
+        <div class="container coaches-box" data-aos="fade-up">
+          <header class="coache-heading">
+            <h2 class="heading heading--2 underline margin-bottom">Our Team</h2>
+            <p>Passionate professionals building smarter gym solutions.</p>
+          </header>
+
+          <article class="coache-content">
+            <div class="c-card">
+              <img src="img/coache-1.jpg" alt="developer one" class="c-card__img" />
+              <div class="c-card__content">
+                <p class="c-name">Alex Smith</p>
+                <p class="c-title">Full-Stack Developer</p>
+              </div>
+            </div>
+
+            <div class="c-card">
+              <img src="img/coache-2.jpg" alt="developer two" class="c-card__img" />
+              <div class="c-card__content">
+                <p class="c-name">Sophia Johnson</p>
+                <p class="c-title">Frontend Engineer</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section-contact" id="contact">
+        <div class="contact-box">
+          <form class="form-grp" data-aos="fade-up">
+            <h2 class="heading heading--2 margin-bottom">Get in <span class="yellow">Touch</span></h2>
+            <input type="text" class="form form__input" placeholder="Name" />
+            <input type="email" class="form form__input" placeholder="Email" />
+            <input type="text" class="form form__input" placeholder="Phone" />
+            <textarea name="message" cols="5" rows="3" class="form form__input" placeholder="Message"></textarea>
+            <button class="btn btn__primary form-flex">Send</button>
+          </form>
+          <div id="mapid" data-aos="fade-up"></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="section-footer" id="footer">
+      <div class="footer-box container">
+        <div class="contact-details">
+          <h2 class="margin-bottom"><span class="yellow">Gym</span>Insights</h2>
+          <ul class="contact-data">
+            <li class="location">123 Fitness Ave, Your City</li>
+            <li class="phone">+1 234 567 890</li>
+            <li class="email">support@gyminsights.com</li>
+          </ul>
+        </div>
+
+        <nav class="footer-nav" aria-label="navigation">
+          <div class="nav-name">Quick Links</div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="legel">
+          <p class="text">© 2025 GymInsights. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
